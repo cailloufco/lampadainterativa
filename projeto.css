@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+}#InterruptorClicavel {
+  width: 50px;
+  display: flex;
+  align-items: center;
+  
+}#InterruptorDesligado{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 250px;
+}
+#lampadaApagada {
+  width: 350px;
+  margin-left: 50px;
+
+
+}
+
