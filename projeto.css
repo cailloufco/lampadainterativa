@@ -1,19 +1,37 @@
 body {
   background-color: black;
-}#InterruptorClicavel {
-  width: 50px;
+  margin: 0;
+}
+#InterruptorClicavel {
   display: flex;
   align-items: center;
-  
-}#InterruptorDesligado{
-    width: 50px;
-    cursor: pointer;
-    margin-left: 250px;
+  margin: auto;
+  justify-content: center;
+}
+#InterruptorDesligado {
+  width: 57px;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-bottom: 400px;
 }
 #lampadaApagada {
-  width: 350px;
-  margin-left: 50px;
-
-
+  width: 500px;
+  flex-direction: column;
 }
-
+footer {
+  color: white;
+  position: absolute;
+  bottom: 40%;
+  left: 48%;
+  
+  
+}footer a{
+  
+  color: darkblue;
+  font: normal 13pt Courier;
+  
+}
+#instagram{
+  display: none;
+  
+}
